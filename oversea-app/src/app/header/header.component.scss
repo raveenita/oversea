@@ -1,0 +1,26 @@
+
+    .header {
+        top: 0;
+        left: 0;
+        padding: 0 45px;
+        z-index: 222;
+        height: 90px;
+        width: 100vw;
+        position: fixed;
+        justify-content: center;
+        background-color: #222222;
+        
+        display: flex;
+        flex-wrap: wrap;
+        align-content: center;
+        justify-content: flex-end;
+        
+        
+        .header__logo {
+            top: 0;
+            left: calc(50% - 165px/2);
+            width: 165px;
+            position: absolute;
+        }
+        
+    }

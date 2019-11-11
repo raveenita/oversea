@@ -1,0 +1,8 @@
+@keyframes blinkScreen {
+    0% { opacity: 1; }
+    15% { opacity: 0; }
+    33% { opacity: 1 }
+    55% {  opacity: 0; }
+    70% { opacity: 1; }
+    100% { opacity: 0; }
+}

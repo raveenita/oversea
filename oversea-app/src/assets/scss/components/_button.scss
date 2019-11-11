@@ -1,0 +1,33 @@
+.button {
+    text-decoration: none;
+    display: inline-block;
+    transition: all .3s;
+
+    &.button {
+        &-primary {
+            color: #fff;
+            font-size: 22px;
+            border-radius: 60px;
+            padding: 18px 48px;
+            text-transform: uppercase;
+            background-color: #ff3b27;
+
+            &:hover{
+                background-color: darken(#ff3b27, 10%);
+            }
+        }
+
+        &-login {
+            color: #fff;
+            border-radius: 25px;
+            padding: 12px 32px;
+            text-transform: uppercase;
+            background-color: #13b4ff;
+            
+            &:hover {
+                background-color: lighten(#13b4ff, 10%);
+            }
+        }
+        
+    }
+}
