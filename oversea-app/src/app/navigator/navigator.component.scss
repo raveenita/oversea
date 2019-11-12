@@ -2,15 +2,18 @@
     top: 90px;
     left: 0;
     height: 100%;
-    width: 100px;
+    width: 120px;
     position: fixed;
     background-color: #333;
 
     a {
+        color: #fff;
         display: block;
-        padding: 20px;
+        padding: 12px;
+        font-size: 14px;
         text-align: center;
         transition: all .3s;
+        text-decoration: none;
 
         &:hover {
             background-color: #ce3c2e;
@@ -18,8 +21,7 @@
 
         i {
             display: block;
-            font-size: 48px;
-            color: #fff;
+            font-size: 42px;
         }
     }
 }

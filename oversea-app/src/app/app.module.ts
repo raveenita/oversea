@@ -6,11 +6,12 @@ import { HomepageComponent } from './homepage/homepage.component';
 import { HeaderComponent } from './header/header.component';
 import { CreateRoomComponent } from './create-room/create-room.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
-import { RoomComponent } from './room/room.component';
 import { AppRoutingModule } from './app-routing.module';
 import { NavigatorComponent } from './navigator/navigator.component';
-import { RoomsListComponent } from './rooms-list/rooms-list.component';
 import { HeaderUserComponent } from './header-user/header-user.component';
+import { SessionsListComponent } from './sessions-list/sessions-list.component';
+import { SessionComponent } from './session/session.component';
+import { RoomComponent } from './room/room.component';
 
 @NgModule({
   declarations: [
@@ -19,10 +20,11 @@ import { HeaderUserComponent } from './header-user/header-user.component';
     HeaderComponent,
     CreateRoomComponent,
     DashboardComponent,
-    RoomComponent,
     NavigatorComponent,
-    RoomsListComponent,
     HeaderUserComponent,
+    SessionsListComponent,
+    SessionComponent,
+    RoomComponent,
   ],
   imports: [
     BrowserModule,
