@@ -1,0 +1,25 @@
+.navigator {
+    top: 90px;
+    left: 0;
+    height: 100%;
+    width: 100px;
+    position: fixed;
+    background-color: #333;
+
+    a {
+        display: block;
+        padding: 20px;
+        text-align: center;
+        transition: all .3s;
+
+        &:hover {
+            background-color: #ce3c2e;
+        }
+
+        i {
+            display: block;
+            font-size: 48px;
+            color: #fff;
+        }
+    }
+}

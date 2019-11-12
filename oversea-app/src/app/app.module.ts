@@ -8,6 +8,9 @@ import { CreateRoomComponent } from './create-room/create-room.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
 import { RoomComponent } from './room/room.component';
 import { AppRoutingModule } from './app-routing.module';
+import { NavigatorComponent } from './navigator/navigator.component';
+import { RoomsListComponent } from './rooms-list/rooms-list.component';
+import { HeaderUserComponent } from './header-user/header-user.component';
 
 @NgModule({
   declarations: [
@@ -17,6 +20,9 @@ import { AppRoutingModule } from './app-routing.module';
     CreateRoomComponent,
     DashboardComponent,
     RoomComponent,
+    NavigatorComponent,
+    RoomsListComponent,
+    HeaderUserComponent,
   ],
   imports: [
     BrowserModule,

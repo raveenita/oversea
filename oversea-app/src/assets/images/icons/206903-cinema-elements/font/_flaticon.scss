@@ -1,0 +1,139 @@
+    /*
+    Flaticon icon font: Flaticon
+    Creation date: 01/09/2016 10:07
+    */
+
+    @font-face {
+  font-family: "Flaticon";
+  src: url("./Flaticon.eot");
+  src: url("./Flaticon.eot?#iefix") format("embedded-opentype"),
+       url("./Flaticon.woff") format("woff"),
+       url("./Flaticon.ttf") format("truetype"),
+       url("./Flaticon.svg#Flaticon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "Flaticon";
+    src: url("./Flaticon.svg#Flaticon") format("svg");
+  }
+}
+
+    .fi:before{
+        display: inline-block;
+  font-family: "Flaticon";
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  line-height: 1;
+  text-decoration: inherit;
+  text-rendering: optimizeLegibility;
+  text-transform: none;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+    }
+
+    .flaticon-26-prompt-boxsvg:before { content: "\f100"; }
+.flaticon-3d-glasses:before { content: "\f101"; }
+.flaticon-award:before { content: "\f102"; }
+.flaticon-award-1:before { content: "\f103"; }
+.flaticon-ballerina:before { content: "\f104"; }
+.flaticon-binoculars:before { content: "\f105"; }
+.flaticon-bouquet:before { content: "\f106"; }
+.flaticon-bow-tie:before { content: "\f107"; }
+.flaticon-cinema:before { content: "\f108"; }
+.flaticon-clapperboard:before { content: "\f109"; }
+.flaticon-column:before { content: "\f10a"; }
+.flaticon-costume:before { content: "\f10b"; }
+.flaticon-director-chair:before { content: "\f10c"; }
+.flaticon-dvd:before { content: "\f10d"; }
+.flaticon-film-reel:before { content: "\f10e"; }
+.flaticon-film-strip:before { content: "\f10f"; }
+.flaticon-harp:before { content: "\f110"; }
+.flaticon-hurdy-gurdy:before { content: "\f111"; }
+.flaticon-levels:before { content: "\f112"; }
+.flaticon-line:before { content: "\f113"; }
+.flaticon-makeup:before { content: "\f114"; }
+.flaticon-mask:before { content: "\f115"; }
+.flaticon-mask-1:before { content: "\f116"; }
+.flaticon-masks:before { content: "\f117"; }
+.flaticon-megaphone:before { content: "\f118"; }
+.flaticon-microphone:before { content: "\f119"; }
+.flaticon-olive:before { content: "\f11a"; }
+.flaticon-oscar:before { content: "\f11b"; }
+.flaticon-photograms:before { content: "\f11c"; }
+.flaticon-piano:before { content: "\f11d"; }
+.flaticon-placeholder:before { content: "\f11e"; }
+.flaticon-popcorn:before { content: "\f11f"; }
+.flaticon-projector:before { content: "\f120"; }
+.flaticon-puppet-show:before { content: "\f121"; }
+.flaticon-puppet-show-1:before { content: "\f122"; }
+.flaticon-quill:before { content: "\f123"; }
+.flaticon-seat:before { content: "\f124"; }
+.flaticon-shutter:before { content: "\f125"; }
+.flaticon-skull:before { content: "\f126"; }
+.flaticon-spotlight:before { content: "\f127"; }
+.flaticon-spotlights:before { content: "\f128"; }
+.flaticon-stage:before { content: "\f129"; }
+.flaticon-tags:before { content: "\f12a"; }
+.flaticon-theater:before { content: "\f12b"; }
+.flaticon-ticket-window:before { content: "\f12c"; }
+.flaticon-tickets:before { content: "\f12d"; }
+.flaticon-tragedy:before { content: "\f12e"; }
+.flaticon-video-camera:before { content: "\f12f"; }
+.flaticon-walk-of-fame:before { content: "\f130"; }
+.flaticon-writer:before { content: "\f131"; }
+    
+    $font-Flaticon-26-prompt-boxsvg: "\f100";
+    $font-Flaticon-3d-glasses: "\f101";
+    $font-Flaticon-award: "\f102";
+    $font-Flaticon-award-1: "\f103";
+    $font-Flaticon-ballerina: "\f104";
+    $font-Flaticon-binoculars: "\f105";
+    $font-Flaticon-bouquet: "\f106";
+    $font-Flaticon-bow-tie: "\f107";
+    $font-Flaticon-cinema: "\f108";
+    $font-Flaticon-clapperboard: "\f109";
+    $font-Flaticon-column: "\f10a";
+    $font-Flaticon-costume: "\f10b";
+    $font-Flaticon-director-chair: "\f10c";
+    $font-Flaticon-dvd: "\f10d";
+    $font-Flaticon-film-reel: "\f10e";
+    $font-Flaticon-film-strip: "\f10f";
+    $font-Flaticon-harp: "\f110";
+    $font-Flaticon-hurdy-gurdy: "\f111";
+    $font-Flaticon-levels: "\f112";
+    $font-Flaticon-line: "\f113";
+    $font-Flaticon-makeup: "\f114";
+    $font-Flaticon-mask: "\f115";
+    $font-Flaticon-mask-1: "\f116";
+    $font-Flaticon-masks: "\f117";
+    $font-Flaticon-megaphone: "\f118";
+    $font-Flaticon-microphone: "\f119";
+    $font-Flaticon-olive: "\f11a";
+    $font-Flaticon-oscar: "\f11b";
+    $font-Flaticon-photograms: "\f11c";
+    $font-Flaticon-piano: "\f11d";
+    $font-Flaticon-placeholder: "\f11e";
+    $font-Flaticon-popcorn: "\f11f";
+    $font-Flaticon-projector: "\f120";
+    $font-Flaticon-puppet-show: "\f121";
+    $font-Flaticon-puppet-show-1: "\f122";
+    $font-Flaticon-quill: "\f123";
+    $font-Flaticon-seat: "\f124";
+    $font-Flaticon-shutter: "\f125";
+    $font-Flaticon-skull: "\f126";
+    $font-Flaticon-spotlight: "\f127";
+    $font-Flaticon-spotlights: "\f128";
+    $font-Flaticon-stage: "\f129";
+    $font-Flaticon-tags: "\f12a";
+    $font-Flaticon-theater: "\f12b";
+    $font-Flaticon-ticket-window: "\f12c";
+    $font-Flaticon-tickets: "\f12d";
+    $font-Flaticon-tragedy: "\f12e";
+    $font-Flaticon-video-camera: "\f12f";
+    $font-Flaticon-walk-of-fame: "\f130";
+    $font-Flaticon-writer: "\f131";
